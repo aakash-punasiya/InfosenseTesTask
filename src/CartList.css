@@ -1,0 +1,28 @@
+/* CartList.css */
+
+.cart-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cart-list {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .cart {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for mobile view */
+  @media screen and (max-width: 768px) {
+    .cart-list-container {
+      padding: 10px;
+    }
+  }
+  

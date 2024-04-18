@@ -1,0 +1,23 @@
+/* UserList.css */
+
+.user-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-list {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .user {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    justify-content: space-between 
+  }
+  

@@ -1,0 +1,17 @@
+.comment-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .comment-list {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .comment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
